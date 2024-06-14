@@ -1,0 +1,77 @@
+
+.stopwatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #686D76;
+    color: #EEEEEE;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.display{
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+
+.controls button{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #EEEEEE;
+}
+
+/* Start Button */
+.start-button {
+    background-color: #4caf50; /* Green */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.start-button:hover {
+    box-shadow: 0 0 15px rgba(76, 175, 80, 0.7); /* Light green glow */
+}
+
+/* Stop Button */
+.stop-button {
+    background-color: #f44336; /* Red */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.stop-button:hover {
+    box-shadow: 0 0 15px rgba(244, 67, 54, 0.7); /* Light red glow */
+}
+
+/* Reset Button */
+.reset-button {
+    background-color: #ff9800; /* Orange */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.reset-button:hover {
+    box-shadow: 0 0 15px rgba(255, 152, 0, 0.7); /* Light orange glow */
+}
+
+@media screen and (max-width: 800){
+
+}

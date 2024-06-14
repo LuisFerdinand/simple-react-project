@@ -1,0 +1,49 @@
+/* Color.module.css */
+
+.color-picker-container {
+    max-width: 1000%;
+    padding: 20px;
+    background-color: #686D76;
+    color: #EEEEEE;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.color-picker-container h1{
+    font-size: 1.5rem;
+}
+
+.color-display {
+    width: 100%;
+    height: 100px;
+    margin: 20px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+input[type="color"] {
+    width: 10%;
+    margin: 0 auto;
+    display: block;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border: none;
+    border-radius: 4px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,88 @@
+.to-do-list {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #686D76;
+    padding: 10px;
+    border-radius: 30px;
+    width: 50%;
+}
+
+h2{
+    color: #EEEEEE;
+}
+
+button {
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease, box-shadow 0.5s ease;
+}
+
+/* Add Button */
+.add-button {
+    background-color: #4caf50; /* Green */
+}
+
+.add-button:hover {
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.7); /* Light green glow */
+}
+
+/* Delete Button */
+.delete-button {
+    background-color: #f44336; /* Red */
+}
+
+.delete-button:hover {
+    box-shadow: 0 0 10px rgba(244, 67, 54, 0.7); /* Light red glow */
+}
+
+/* Move Button */
+.move-button {
+    background-color: #ffc107; /* Yellow */
+}
+
+.move-button:hover {
+    box-shadow: 0 0 10px rgba(255, 193, 7, 0.7); /* Light yellow glow */
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid hsla(0, 0%, 80%, 0.5);
+    border-radius: 5px;
+    color: hsla(0, 0%, 0%, 0.5);
+}
+
+ol {
+    padding: 0;
+}
+
+li {
+    font-weight: bold;
+    padding: 15px;
+    background-color: hsl(0, 0%, 97%);
+    margin-bottom: 10px;
+    border: 3px solid hsla(0, 0%, 85%, 0.75);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.text {
+    flex: 1;
+}
+
+/* Adjusted padding and font size for delete and move buttons inside list items */
+.delete-button, .move-button {
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 800px){
+    .to-do-list{
+        width: 100%;
+    }
+}

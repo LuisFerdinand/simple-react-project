@@ -1,6 +1,6 @@
 .card {
     display: flex;
-    max-width: 100%;
+    max-width: 40%;
     max-height: 300px;
     background-color: #686D76;
     color: #EEEEEE;

@@ -18,9 +18,9 @@ function App() {
         <ColorPicker />
         <DigitalClock />
         <Stopwatch />
+        <ToDoList /> 
       </div>
       <div className='container2'>
-        <ToDoList /> 
       </div>
 
     </>

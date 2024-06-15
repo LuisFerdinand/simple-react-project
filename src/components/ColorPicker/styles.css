@@ -1,7 +1,7 @@
 /* Color.module.css */
 
 .color-picker-container {
-    max-width: 1000%;
+    width: 40%;
     padding: 20px;
     background-color: #686D76;
     color: #EEEEEE;
@@ -25,7 +25,7 @@
 }
 
 input[type="color"] {
-    width: 10%;
+    width: 20%;
     margin: 0 auto;
     display: block;
     padding: 4px;
@@ -43,7 +43,8 @@ input[type="color"]::-webkit-color-swatch {
     border-radius: 4px;
 }
 
-h1 {
-    font-size: 28px;
-    margin-bottom: 20px;
+@media screen and (max-width: 600px){
+    .color-picker-container{
+        width: 90%;
+    }
 }

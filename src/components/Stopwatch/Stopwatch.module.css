@@ -6,12 +6,14 @@
     background-color: #686D76;
     color: #EEEEEE;
     border-radius: 30px;
-    padding: 10px;
+    padding: 20px;
+    width: 40%;
 }
 
 .display{
     font-size: 3rem;
     font-weight: bold;
+    margin-top: 10px;
     text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
     margin-bottom: 25px;
 }
@@ -72,6 +74,8 @@
     box-shadow: 0 0 15px rgba(255, 152, 0, 0.7); /* Light orange glow */
 }
 
-@media screen and (max-width: 800){
-
+@media screen and (max-width: 600px){
+    .stopwatch{
+        width: 90%;
+    }
 }

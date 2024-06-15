@@ -5,9 +5,11 @@
     border-radius: 30px;
     text-align: center;
     height: 200px;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 
@@ -17,6 +19,13 @@
     text-shadow: 1px 1px 10px #DC5F00;
     font-size: 3rem;
     font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .clock-container{
+       width: 90%;
+    }
+    
 }
 
 
